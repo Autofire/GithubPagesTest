@@ -103,6 +103,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa799956937e3379ed401645f043b8977"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dialogue_1_1_v_n_1_1_visual_novel_commands.html#aa799956937e3379ed401645f043b8977">Move</a> (string[] args)</td></tr>
 <tr class="memdesc:aa799956937e3379ed401645f043b8977"><td class="mdescLeft">&#160;</td><td class="mdescRight">&lt;&lt;move CHARACTER [to] TO_POINT [from FROM_POINT]&gt;&gt;  <a href="#aa799956937e3379ed401645f043b8977">More...</a><br /></td></tr>
 <tr class="separator:aa799956937e3379ed401645f043b8977"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52f52d451e08780a6130cdb37e7039b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dialogue_1_1_v_n_1_1_visual_novel_commands.html#a52f52d451e08780a6130cdb37e7039b6">Turn</a> (string[] args)</td></tr>
+<tr class="memdesc:a52f52d451e08780a6130cdb37e7039b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">&lt;&lt;turn CHARACTER DIRECTION&gt;&gt;  <a href="#a52f52d451e08780a6130cdb37e7039b6">More...</a><br /></td></tr>
+<tr class="separator:a52f52d451e08780a6130cdb37e7039b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Implements several commands for the Yarn scripts to use. </p>
@@ -135,6 +138,29 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a52f52d451e08780a6130cdb37e7039b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52f52d451e08780a6130cdb37e7039b6">&#9670;&nbsp;</a></span>Turn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Dialogue.VN.VisualNovelCommands.Turn </td>
+          <td>(</td>
+          <td class="paramtype">string []&#160;</td>
+          <td class="paramname"><em>args</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>&lt;&lt;turn CHARACTER DIRECTION&gt;&gt; </p>
+<p>Causes CHARACTER to face in DIRECTION, where DIRECTION is either "left" or "right" (DIRECTION is case-insensitive). </p>
+<pre class="fragment">&lt;&lt;turn Ibuki Right&gt;&gt; 
+</pre><p> Make Ibuki face to the right. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>Assets/!Scripts/TextHandling/VisualNovel/<a class="el" href="_visual_novel_commands_8cs.html">VisualNovelCommands.cs</a></li>
 </ul>
@@ -144,7 +170,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_dialogue.html">Dialogue</a></li><li class="navelem"><a class="el" href="namespace_dialogue_1_1_v_n.html">VN</a></li><li class="navelem"><a class="el" href="class_dialogue_1_1_v_n_1_1_visual_novel_commands.html">VisualNovelCommands</a></li>
-    <li class="footer">Generated on Sat Aug 15 2020 20:41:05 for Nijito by
+    <li class="footer">Generated on Sun Aug 16 2020 12:25:51 for Nijito by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

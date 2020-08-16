@@ -1,9 +1,6 @@
 var searchData=
 [
-  ['puppet',['Puppet',['../class_dialogue_1_1_v_n_1_1_puppet.html',1,'Dialogue::VN']]],
-  ['puppet_2ecs',['Puppet.cs',['../_puppet_8cs.html',1,'']]],
-  ['puppetmaster',['PuppetMaster',['../class_dialogue_1_1_v_n_1_1_puppet_master.html',1,'Dialogue::VN']]],
-  ['puppetmaster_2ecs',['PuppetMaster.cs',['../_puppet_master_8cs.html',1,'']]],
-  ['puppetprefab',['puppetPrefab',['../class_dialogue_1_1_v_n_1_1_puppet_master.html#a3069c035f2c8af38c8164a0cd5f223ec',1,'Dialogue::VN::PuppetMaster']]],
-  ['puppetspawnpoint',['puppetSpawnPoint',['../class_dialogue_1_1_v_n_1_1_puppet_master.html#a350718f6f83fe7dd955ef729d58d82f1',1,'Dialogue::VN::PuppetMaster']]]
+  ['marklinecomplete',['MarkLineComplete',['../class_dialogue_1_1_nijito_dialogue_u_i.html#a3b1d19db9da457714df17ae2c40fefeb',1,'Dialogue::NijitoDialogueUI']]],
+  ['move',['Move',['../class_dialogue_1_1_v_n_1_1_visual_novel_commands.html#aa799956937e3379ed401645f043b8977',1,'Dialogue::VN::VisualNovelCommands']]],
+  ['movementspeed',['movementSpeed',['../class_dialogue_1_1_v_n_1_1_puppet.html#a398a038d89d57524a747ec2c37b6eb52',1,'Dialogue::VN::Puppet']]]
 ];
